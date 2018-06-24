@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  color: #2f2f2f;
+}
+
+html, body {
+  background-color: lightgrey;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+} */
+
+.card-row {
+  display: grid;
+  padding-left: 1.5em;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  background-color: grey;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
